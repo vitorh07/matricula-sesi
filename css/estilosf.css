@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 237, 237);
+    margin: 10px;
+}
+
+.logo {
+    width: 250px;
+    padding: 8px;
+    margin: 30px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e40520;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 40px 60px 20px 60px;
+    text-align: left;
+}
+
+
+.form input, select{
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border:0;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.form input[type="submit"]{
+    background-color: #9c2424;
+    color: #f0f0f0;
+}

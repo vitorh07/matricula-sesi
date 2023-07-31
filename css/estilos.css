@@ -1,0 +1,68 @@
+.menu{background-color: #e40520;color: white;padding: 0.1%}
+.logo{max-width: 20%;padding: 2%;}
+.robson{max-width: 15%;padding: 2%;}
+ul{list-style-type:none;display: flex;justify-content:space-around;}
+a{text-decoration: none;color: white;font-family: 'Gill Sans', 'Gill Sans MT';font-size: larger;}
+.menu img{max-width: 50%;background-color: #e40520;color: white;}
+.user{
+    position: absolute;left: 97%;
+}
+
+button{background-color: #e40520;border-radius: 15px;color: white;padding: 2% 10%;font-size: large;}
+button:hover{cursor: pointer;}
+.p{max-width: 50%;font-size: x-large;}
+.p img{max-width: 70%;padding-bottom: 5%;}
+p{font-family: helvetica;}
+h3{font-family: sans-serif;}
+
+.menu2{background-color: #e40520;color: white;padding: 1%;margin-top: 1%;display: flex;justify-content: space-around;}
+.submenu{max-width: 50%;}
+
+.divG{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 10px;
+    border:solid black 3px;
+}
+
+.button2{
+    background-color: #e40520;
+    color: white;
+    padding: 5% 10%;
+    border-radius: 7px;
+    font-size: large;
+}
+
+.div button{width: 100%;}
+
+.divC{
+    background-color: #e40520;
+    font-size: larger;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+img{border-radius: 10px;width: auto;height: auto;}
+
+.divIMG{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.li{font-size: larger; margin: 2%;}
